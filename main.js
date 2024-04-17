@@ -68,7 +68,7 @@ const {
                      let nom = 'm';
                    }
                    else{
-                    await session.sendMessage(gid,  { image: { url: images }, caption: `\n${ title }\n\n ${ news }\n\n${date}`});
+                    await session.sendMessage(jid,  { image: { url: images }, caption: `\n${ title }\n\n ${ news }\n\n${date}`});
                     const lastid =`${newsid}`;
                    }
                           }
