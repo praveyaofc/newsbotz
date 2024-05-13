@@ -1,4 +1,4 @@
-FROM quay.io/xelectra/xasena:latest
+
 RUN git clone https://github.com/praveyaofc/newsbotz /root/praveyaofc
 WORKDIR /root/praveyaofc/
 RUN npm install npm@latest
